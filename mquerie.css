@@ -1,0 +1,58 @@
+/**Media Query index**/
+
+/* Width at 980px  */
+@media screen and (max-width: 980px) {
+  
+  .wrapper {
+    /* Box-model */
+    width: 100%;
+    padding: 20px;
+  }
+
+  #main-content,
+  #sidebar {
+    width: 80%;
+  }
+
+  #sidebar {
+    margin-top: 36px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+ 
+  .wrapper {
+    /* Box-model */
+    width: 100%;
+    padding: 18px;
+  }
+
+  #main-content,
+  #sidebar {
+    width: 76%;
+  }
+
+  #sidebar {
+    margin-top: 34px;
+  }
+
+}
+/* Width at 640px */
+@media screen and (max-width: 640px) {
+
+  .wrapper {
+    /* Box-model */
+    width: 100%;
+    padding: 16px;
+  }
+
+  #main-content,
+  #sidebar {
+    width: 70%;
+  }
+
+  #sidebar {
+    margin-top: 30px;
+  }
+}

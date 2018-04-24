@@ -1,0 +1,104 @@
+@media screen and (max-width: 980px) {
+body {
+  font-size: 16px;
+  line-height: 32px;  
+}
+
+/* general */
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-bottom: 20px;
+}
+
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+}
+
+h1 {
+  padding-bottom: 20px;
+  font-size: 28px;
+  line-height: 47px;
+  border-bottom: 3px solid #ddd;
+}
+
+h2,
+h3 {
+  font-size: 20px;
+}
+
+/* header */
+
+#masthead {
+  z-index: 97;
+  width: 100%;
+  margin: 0 0 30px;
+  border-bottom: 2px solid #ccc;
+}
+
+#logo {
+  width: 250px;
+  height: 90px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 90px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  background: #4aaaa5;
+}
+
+nav {
+  margin-top: 25px;
+}
+
+nav a {
+  padding-left: 15px;
+  margin-left: 15px;
+  line-height: 18px;
+  border-left: 1px solid #efefef;
+}
+
+
+/* footer */
+
+footer {
+  padding: 30px 0;
+  font-size: 12px;
+  height: 50px;
+}
+
+h3, h2 {
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  line-height: 22px;
+  border-bottom: 2px solid #eee;
+}
+
+/* main */
+
+#main-container {
+  padding-top: 130px;
+  min-height: calc(100vh - 70px);
+}
+
+.main-section {
+  width: 100%;
+  max-width: 960px;
+  padding: 30px;
+  margin: 0 0 40px;
+  border: 1px solid #ddd;
+}
+
+
